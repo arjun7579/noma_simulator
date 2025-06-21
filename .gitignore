@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Byte-compiled, log & runtime files
+*.log
+*.pid
+*.tmp
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Output files
+world_state.json
+*.swp
+*.bak
+*.DS_Store
+
+# LaTeX aux files
+*.aux
+*.out
+*.toc
+*.log
+*.pdf
