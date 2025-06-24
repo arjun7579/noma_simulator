@@ -1,7 +1,7 @@
 ## 🛰️ NOMA + SIC Implementation
 
 ### 🔸 What is NOMA?
-NOMA (Non-Orthogonal Multiple Access) allows multiple devices (drones) to transmit over the same frequency band simultaneously by allocating different power levels to each device. The base station decodes signals using Successive Interference Cancellation (SIC)[6][9].
+NOMA (Non-Orthogonal Multiple Access) allows multiple devices (drones) to transmit over the same frequency band simultaneously by allocating different power levels to each device. The base station decodes signals using Successive Interference Cancellation (SIC).
 
 ### 🔸 How We Implemented NOMA
 In our simulator (`comm/noma.py`):
@@ -76,7 +76,7 @@ dx, dy = x - ox, y - oy
 push = 5
 self.position = (x + dx / dist * push, y + dy / dist * push)
 ```
-Enables local real-time collision mitigation[4].
+Enables local real-time collision mitigation.
 
 ---
 
